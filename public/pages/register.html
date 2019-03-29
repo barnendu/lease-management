@@ -1,0 +1,25 @@
+<div class="container">
+    <div class="register card card-container">
+      
+        <p id="profile-name" class="profile-name-card">User Registration</p>
+        <form class="form-signin">
+            <span id="reauth-email" class="reauth-email"></span>
+            <input type="text"  class="form-control" placeholder="User name" ng-model="user.userName" required autofocus>
+            <input type="text"  class="form-control" placeholder="First name" ng-model="user.firstName" required autofocus>
+            <input type="text"  class="form-control" placeholder="Last name" ng-model="user.lastName" required autofocus>
+            <input type="email"  class="form-control" placeholder="Email" ng-model="user.email" required autofocus>
+            <input type="text" class="form-control" placeholder="Phone" ng-model="user.phone" required autofocus>
+            <input type="password"  class="form-control" placeholder="Password" ng-model="user.password" required autofocus>
+            <input type="password" id="inputPassword" class="form-control" ng-model="user.repassword" placeholder="Retype Password" required>
+            <div class="row marT40">
+            <div class="col-md-6">
+            <button class="btn btn-sm btn-primary btn-block btn-signin" type="submit" ng-click="register()">Register</button>
+        </div>
+        <div class="col-md-6"> 
+            <button class="btn btn-sm btn-default btn-block" style="color:#fff" type="submit" ng-click="cancel()">Cancel</button>
+        </div>
+    </div>
+     </form><!-- /form -->
+       
+    </div><!-- /card-container -->
+</div>

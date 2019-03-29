@@ -1,0 +1,203 @@
+  <div class="container">
+        <div class="card">
+         
+           
+            <div class="row">
+       	<div class="page-tabs mb-4">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4 col-md-4 col-lg- pr-0 pl-0">
+					<div class="tab-content active">Asset Management</div>
+				</div>
+				<div class="col-sm-4 col-md-4 col-lg-4 pr-0 pl-0">
+					<div class="tab-content">Abstract Management</div>
+				</div>
+				<div class="col-sm-4 col-md-4 col-lg-4 pr-0 pl-0">
+					<div class="tab-content ">Payment</div>
+				</div>
+			</div>
+			</div>
+		</div>
+		<div class="container-fluid" id="lease">
+			<form>
+				 <p id="profile-name" class="profile-name-card">Asset Creation Requests / Create Asset</p>
+				<div class="row marT20">
+					<!--left start -->
+					<div class="col-md-6 col-lg-6">
+						<div class="search-filters">
+							<div class="form-group">
+							
+								<div class="row mb-4">
+									<div class="col-md-4 col-lg-4"><strong>Property Name</strong> </div>
+									<div class="col-md-8 col-lg-8">
+										<input type="text" class="form-control" ng-model="lease.propertyName">
+									</div>
+								</div>
+								
+								<div class="row mb-4">
+									<div class="col-md-4 col-lg-4"><strong>Property Type</strong></div>
+									<div class="col-md-8 col-lg-8">
+										<input type="text" class="form-control" ng-model="lease.propertyType">
+									</div>
+								</div>
+								
+								<div class="row mb-4">
+									<div class="col-md-4 col-lg-4"><strong>Property ID#</strong></div>
+									<div class="col-md-8 col-lg-8">
+										<input type="text" class="form-control" ng-model="lease.propertId">
+									</div>
+								</div>
+								
+								
+								<div class="row mb-4">
+									<div class="col-md-4 col-lg-4"><strong>Address</strong></div>
+									<div class="col-md-8 col-lg-8">
+										<input type="text" class="form-control" ng-model="lease.address">
+									</div>
+								</div>
+								
+								<div class="row mb-4">
+									<div class="col-md-4 col-lg-4"><strong>Total Available Area</strong></div>
+									<div class="col-md-8 col-lg-8">
+										<input type="text" class="form-control" ng-model="lease.availArea">
+									</div>
+								</div>
+								
+								<div class="row mb-4">
+									<div class="col-md-4 col-lg-4"><strong>Floor</strong></div>
+									<div class="col-md-8 col-lg-8">
+										<input type="text" class="form-control"  ng-model="lease.floor">
+									</div>
+								</div>
+								
+								<div class="row mb-4">
+									<div class="col-md-4 col-lg-4"><strong>Floor Type</strong></div>
+									<div class="col-md-8 col-lg-8">
+										<input type="text" class="form-control" ng-model="lease.floorType">
+									</div>
+								</div> 
+								
+								<div class="row mb-4">
+									<div class="col-md-4 col-lg-4"><strong>Suite</strong></div>
+									<div class="col-md-8 col-lg-8">
+										<input type="text" class="form-control" ng-model="lease.suite">
+									</div>
+								</div>
+								
+								<div class="row mb-4">
+									<div class="col-md-4 col-lg-4"><strong>Asking Rent Monthly</strong></div>
+									<div class="col-md-8 col-lg-8">
+										<input type="text" class="form-control" ng-model="lease.rentMonthly">
+									</div>
+								</div>
+								<div class="row mb-4">
+									<div class="col-md-4 col-lg-4"><strong>Lease Term</strong></div>
+									<div class="col-md-8 col-lg-8">
+										<input type="text" class="form-control" ng-model="lease.term">
+									</div>
+								</div>
+								
+								
+							</div>
+						</div>
+					</div>
+					<!--left ends -->
+					
+					<!-- Right starts -->
+					<div class="col-md-6 col-lg-6">
+						<div class="search-filters">
+							<div class="form-group"> 
+								<div class="row mb-4">
+									<div class="col-md-4 col-lg-4"><strong>Date Available</strong></div>
+									<div class="col-md-8 col-lg-8">
+										<div class="input-group date-picker-cont" >
+										<input type="text" class="form-control date-picker" ng-model="lease.dateAvail">
+										<div class="input-group-addon">
+											<i class="fa fa-calendar" aria-hidden="true"></i>
+										</div>
+									</div>
+									</div>
+								</div>
+								
+								<div class="row mb-4">
+									<div class="col-md-4 col-lg-4"><strong>Date On Market</strong></div>
+									<div class="col-md-8 col-lg-8">
+										<div class="input-group date-picker-cont" >
+										<input type="text" class="form-control date-picker" ng-model="lease.dateMark">
+										<div class="input-group-addon">
+											<i class="fa fa-calendar" aria-hidden="true"></i>
+										</div>
+									</div>
+									</div>
+								</div>
+								
+								<div class="row mb-4">
+									<div class="col-md-4 col-lg-4"><strong>Lease Minimum</strong></div>
+									<div class="col-md-8 col-lg-8">
+										<input type="text" class="form-control" ng-model="lease.minYear">
+									</div>
+								</div>
+								
+								<div class="row mb-4">
+									<div class="col-md-4 col-lg-4"><strong>Lease Maximum</strong></div>
+									<div class="col-md-8 col-lg-8">
+										<input type="text" class="form-control" ng-model="lease.maxYear">
+									</div>
+								</div>
+								 <div class="row mb-4">
+									<div class="col-md-4 col-lg-4"><strong>Landloard Name</strong></div>
+									<div class="col-md-8 col-lg-8">
+										<input type="text" class="form-control" ng-model="lease.landLordName"/>
+									</div>
+								</div>
+								
+									<div class="row mb-4">
+									<div class="col-md-4 col-lg-4"><strong>Landlord Phone</strong></div>
+									<div class="col-md-8 col-lg-8">
+										<input type="text" class="form-control" ng-model="lease.landLordPhno"/>
+									</div>
+								</div>
+								<div class="row mb-4">
+									<div class="col-md-4 col-lg-4"><strong>Landlord Email</strong></div>
+									<div class="col-md-8 col-lg-8">
+										<input type="text" class="form-control" ng-model="lease.landlordEmail"/>
+									</div>
+								</div>
+								<div class="row mb-4">
+									<div class="col-md-4 col-lg-4"><strong>Lease Notes</strong></div>
+									<div class="col-md-8 col-lg-8">
+										<textarea class="form-control" rows="7" ng-model="lease.notes"></textarea>
+									</div>
+								</div>
+							
+								
+								<div class="row ">
+									<div class="col-md-4 col-lg-4  marL30P">
+										<button class="btn btn-success form-control" ng-click="createLease()">Save</button>
+									</div>	
+									<div class="col-md-4 col-lg-4 ">
+										<button class="btn btn-info form-control">Cancel</button>
+									</div>								 
+								</div>
+								
+							</div>
+							<!-- Right part ends -->
+						</div>
+					</div>
+				</div>
+			</form>
+			
+			<p>&nbsp;</p>
+		
+			 
+			 
+		</div>
+      </div><!-- /form -->
+       
+        </div><!-- /card-container -->
+    </div>
+     <script>
+	  $( function() {
+		$(".date-picker").datepicker();
+	  } );
+	  </script>  
